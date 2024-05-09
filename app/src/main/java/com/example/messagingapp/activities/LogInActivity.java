@@ -27,7 +27,6 @@ import javax.crypto.SecretKey;
 
 import security.manager.CryptoMethods;
 import security.manager.KDC;
-
 //upon login, KDC give user a key,
 public class LogInActivity extends AppCompatActivity {
 
@@ -48,7 +47,6 @@ public class LogInActivity extends AppCompatActivity {
     public void loginPressed(View v) throws Exception{
 
         if (!this.validLogInCredFormat()) {
-            // TODO reject user, show error msg etc
         }
         else {
             Button b = (Button) v;
@@ -89,7 +87,6 @@ public class LogInActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), txt, Toast.LENGTH_SHORT).show();
     }
 
-    //TODO: if time permits, add this to a separate file to segregate concern
     private boolean validLogInCredFormat() {
         if(binding.EmailInput.getText().toString().trim().isEmpty()){
             displayHelpText("Username Required");
@@ -112,7 +109,6 @@ public class LogInActivity extends AppCompatActivity {
     }
 
     private String getUserId(String email){
-        //TODO: fix exerything so that it go by email not by userId
         FirebaseFirestore db = FirebaseFirestore.getInstance();
         AtomicReference<String> workNumber = new AtomicReference<>();
         db.collection("userProfile")
@@ -141,22 +137,5 @@ public class LogInActivity extends AppCompatActivity {
         return workNumber.toString();
     }
 
-
-    /*
-    // TODO REMOVE TESTING DB LATER
-    private void test_addingtoFireDB(){
-        FirebaseFirestore db = FirebaseFirestore.getInstance();
-        HashMap<String, Object> data = new HashMap<>();
-        data.put("first_name", "Donald");
-        data.put("last_name", "Duck");
-
-        db.collection("users").add(data).addOnSuccessListener(documentReference -> {
-            Toast.makeText(getApplicationContext(), "Insert Success", Toast.LENGTH_SHORT).show();
-        })
-                .addOnFailureListener(exception -> {
-                    Toast.makeText(getApplicationContext(), "Insert Error", Toast.LENGTH_SHORT).show();
-                });
-    }
-     */
 
 }

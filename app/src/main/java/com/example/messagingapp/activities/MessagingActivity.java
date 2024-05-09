@@ -36,7 +36,6 @@ import security.manager.KDC;
 
 //then upon message user authenticate then get chat with messaging key
 
-
 public class MessagingActivity extends AppCompatActivity {
 
     ArrayList<Message> messageList = new ArrayList<>();
@@ -51,7 +50,6 @@ public class MessagingActivity extends AppCompatActivity {
     public static final AppClient AC = new AppClient(user.getWorkNumber(), "", 1234, kdc, user);
 
 
-    //TODO:ideally, this shouldn't be here, such Authentication Server should be a actual server but we don't ahve time
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -141,30 +139,6 @@ public class MessagingActivity extends AppCompatActivity {
 
     }
 
-    // OLD
-    /*private void retrieveMessages() {
-        Log.d("DEBUG_MESSAGING","Retrieving messages from log with pair ID: "+pairID);
-        FirebaseFirestore db = FirebaseFirestore.getInstance();
-        db.collection(Firebase_CollectionFields.ATTR_COLLECTION_MESSAGING)
-                // uses the generated key for user, recipient pair
-                .whereEqualTo(Firebase_CollectionFields.ATTR_PAIR_ID, pairID)
-                // order by timestamp
-                .orderBy(Firebase_CollectionFields.ATTR_DATE, Query.Direction.ASCENDING)
-                .get()
-                .addOnCompleteListener(task -> {
-                    if(task.isSuccessful() && task.getResult() != null && !task.getResult().getDocuments().isEmpty()) {
-                        messageList.clear();
-                        List<DocumentSnapshot> messagesQueryData = task.getResult().getDocuments();
-                        for (DocumentSnapshot docSnap : messagesQueryData) {
-                            Message message = docSnap.toObject(Message.class);
-                            messageList.add(message);
-                            Log.d("DEBUG_MESSAGING2","Added to local msg list: "+message.getMessage());
-                        }
-                    }
-                    // messages have been retrieved from DB, now display
-                    updateMessageLayout();
-                });
-    }*/
 
     public void saveMessage(View v) {
         // extract current message input
@@ -187,7 +161,6 @@ public class MessagingActivity extends AppCompatActivity {
         }
     }
 
-    // TODO need to make this layout nicer
     // separate xml files for sender and recipient messages
     private void updateMessageLayout() {
         messageLayoutList.removeAllViews();

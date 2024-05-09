@@ -1,7 +1,6 @@
 package com.example.messagingapp.firebase_CS;
 
 import android.util.Log;
-
 import androidx.annotation.NonNull;
 
 import com.google.firebase.firestore.FirebaseFirestore;

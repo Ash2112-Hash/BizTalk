@@ -17,8 +17,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-// need to do the rehandshake
-// need to sync KDC with database
+// KDC implemented from online documentation and learning tutorials
 
 public class AppClient {
     String selfIP;

@@ -167,26 +167,6 @@ public class PaymentActivity extends AppCompatActivity {
         headerTextView.setText(recipientName);
     }
 
-    /*private void startAmountEnteredListener() {
-        EditText amountField = findViewById(R.id.amountField);
-        Button sendPaymentButton = findViewById(R.id.sendPayment);
-        amountField.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                // implementation if needed
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                // implementation if needed
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                // implementation after text has changed
-            }
-        });
-    }*/
 
     private void startRecipientNameEnteredListener() {
         recipientNameField.addTextChangedListener(new TextWatcher() {
@@ -206,25 +186,6 @@ public class PaymentActivity extends AppCompatActivity {
             }
         });
     }
-
-    /*private void startPaymentMessageEnteredListener() {
-        paymentMessageField.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-                // Not needed for this example
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-                // Perform any actions related to the payment message
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                // Not needed for this example
-            }
-        });
-    }*/
 
 
     private void showAlert(String message) {
