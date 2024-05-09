@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MessagingApp</string>
+    <string name="welcome">Welcome to MALFS\!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="messagingHeader">Messaging:</string>
+    <string name="sendMessageButton">Send</string>
+    <string name="enterMessageHintText">Enter a Message</string>
+    <string name="chooseRecipient">Choose Recipient</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="homePageHeader"><![CDATA[Hello, <name>]]></string>
+    <string name="userFullName"></string>
+    <string name="helloUser">Hello @string/userFullName</string>
+    <string name="homePageSecondaryMsg">You are signed in.</string>
+    <string name="role">Role</string>
+    <string-array name="colorsArray">
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Green</item>
+    </string-array>
+    <string-array name="fontSizeArray">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string name="edit_profile">Edit Profile</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="gradientStartColor" format="color"/>
+    <attr name="gradientEndColor" format="color"/>
+    <attr name="buttonStylePrimary" format="color"/>
+    <attr name="buttonStyleSecondary" format="color"/>
+    <attr name="navTint" format="color"/>
+    <attr name="textPrimary" format="color"/>
+    <attr name="upMenuText" format="color"/>
+</resources>

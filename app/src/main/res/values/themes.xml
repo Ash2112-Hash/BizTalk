@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Testing
+    <style name="Theme.MessagingApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="actionBarStyle">@style/ActionBar</item>
+    </style>
+    -->
+
+
+    <!-- Action Bar Styles
+    <style name="ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/primary</item>
+        <item name="background">@color/primary</item>
+    </style>
+    -->
+    <style name="BlueTheme" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/bluePrimary</item>
+        <item name="textPrimary">@color/white</item>
+        <item name="gradientStartColor">@color/upg_blue_start</item>
+        <item name="gradientEndColor">@color/upg_blue_end</item>
+        <item name="buttonStylePrimary">@color/bluePrimary</item>
+        <item name="buttonStyleSecondary">@color/blueBtnSec</item>
+        <item name="navTint">@color/navBlueTint</item>
+        <item name="upMenuText">@color/up_blue_menu_text</item>
+        <item name="android:textColorPrimary">@color/white</item> <!-- Font color of the title and icons in the app bar -->
+    </style>
+    <style name="RedTheme" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/redPrimary</item>
+        <item name="textPrimary">@color/white</item>
+        <item name="gradientStartColor">@color/upg_red_start</item>
+        <item name="gradientEndColor">@color/upg_red_end</item>
+        <item name="buttonStylePrimary">@color/redPrimary</item>
+        <item name="buttonStyleSecondary">@color/redBtnSec</item>
+        <item name="navTint">@color/navRedTint</item>
+        <item name="upMenuText">@color/up_red_menu_text</item>
+
+        <item name="android:textColorPrimary">@color/white</item> <!-- Font color of the title and icons in the app bar -->
+    </style>
+    <style name="GreenTheme" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/greenPrimary</item>A
+        <item name="textPrimary">@color/white</item>
+        <item name="gradientStartColor">@color/upg_green_start</item>
+        <item name="gradientEndColor">@color/upg_green_end</item>
+        <item name="buttonStylePrimary">@color/greenPrimary</item>
+        <item name="buttonStyleSecondary">@color/greenBtnSec</item>
+        <item name="upMenuText">@color/up_green_menu_text</item>
+
+        <item name="navTint">@color/navGreenTint</item>
+        <item name="android:textColorPrimary">@color/white</item> <!-- Font color of the title and icons in the app bar -->
+    </style>
+</resources>

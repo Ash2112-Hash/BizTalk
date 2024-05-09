@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "691031773451",
+    "project_id": "malf-ad183",
+    "storage_bucket": "malf-ad183.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691031773451:android:f89d538baf5afa7a33520e",
+        "android_client_info": {
+          "package_name": "com.example.messagingapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcAAWoUQLtW1HJSbdDcGcNLL9PPl8wsRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

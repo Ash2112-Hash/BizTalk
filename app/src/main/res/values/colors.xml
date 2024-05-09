@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="primary">#1C2E46</color>
+    <color name="primary_dark">#142232</color>
+    <color name="primary_btn">#1F65A4</color>
+    <color name="secondary_btn">#142232</color>
+    <color name="primary_txt">#212121</color>
+    <color name="secondary_txt">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <color name="enter_bg">#ECECEC</color>
+    <color name="icon_bg">#20FFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="recieved_msg_bg">#090D16</color>
+    <color name="log_in_bt">#1F65A4</color>
+    <!--Blue Theme -->
+    <color name="bluePrimary">#1C2E46</color>
+    <color name="upg_blue_start">#4287f5</color>
+    <color name="upg_blue_end">#07285c</color>
+    <color name="up_blue_menu_text">#182693</color>
+    <color name="blueBtnSec">#1F65A4</color>
+    <color name="navBlueTint">#7cacf7</color>
+
+    <!--Red Theme -->
+    <color name="redPrimary">#CB2739</color>
+    <color name="upg_red_start">#fa6e64</color>
+    <color name="upg_red_end">#5e0c06</color>`
+    <color name="up_red_menu_text">#5c0802</color>`
+    <color name="redBtnSec">#ed4a3e</color>
+    <color name="navRedTint">#f26682</color>
+
+    <!--Green Theme -->
+    <color name="greenPrimary">#076309</color>
+    <color name="upg_green_start">#6fe372</color>
+    <color name="upg_green_end">#0b540d</color>`
+    <color name="up_green_menu_text">#032604</color>`
+    <color name="greenBtnSec">#16941a</color>
+    <color name="navGreenTint">#a7e8a9</color>
+</resources>
