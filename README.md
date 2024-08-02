@@ -8,7 +8,3 @@ This messaging application allows authorized users to connect with one another t
 - **Profile Customization:** Customize your profile with profile pictures, usernames, and other details.
 - **Firebase Cloud Messaging:** Uses FCM to intercept user messages, store their context and process forwarding to the recipient. 
 - **Firebase FireStore:** cloud database connection to enable user data, payment info and messaging (encrypted through Kerberos) to be stored securely.
-
-
-## Demo
-![Demo GIF]([https://raw.githubusercontent.com/your-username/your-repository/master/images/your-gif-file.gif](https://github.com/Ash2112-Hash/Firebase-MessagingApp/blob/master/images/demo.gif)
